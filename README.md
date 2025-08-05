@@ -11,6 +11,14 @@ Scanner réseau simple et automatisé en Python.
 - Interface en ligne de commande
 - Utilise `nmap` via le module `python-nmap`
 
+## 🔧 Évolutions prévues
+
+- [ ] Scan UDP
+- [ ] Export des résultats en JSON ou HTML
+- [ ] Interface Web minimale (Flask)
+- [ ] Scan automatique d’un sous-réseau
+- [ ] Mode silencieux (stealth scan)
+
 ## 🚀 Utilisation
 
 ```bash
@@ -18,3 +26,5 @@ git clone https://github.com/baptmerieau/ScanR.git
 cd ScanR
 pip install -r requirements.txt
 python scanr.py
+
+
